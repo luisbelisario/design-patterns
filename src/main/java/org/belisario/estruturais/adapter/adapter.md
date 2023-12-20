@@ -1,0 +1,1 @@
+Esse padrão serve como um adaptador para uma interface que tem assinatura de métodos diferentes da que se deseja implementar.

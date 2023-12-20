@@ -5,21 +5,56 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a294d05-af8d-419c-82ea-4d791d1c0a3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/MainBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/builder.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/builders/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/builders/CarBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/builders/MotorcycleBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/builders/TruckBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/components/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/components/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/components/Traction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/components/VehicleType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/components/Wheels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/manager/Manager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/vehicles/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/vehicles/Motorcycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/builder/vehicles/Truck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/adapter/MainAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/adapter/adapters/PayoneerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/adapter/payoneer/IPayoneer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/adapter/payoneer/Payoneer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/adapter/paypal/IPayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/adapter/paypal/PayPal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/MainAbstractFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/MainAbstractFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/transport/AircraftTransportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/transport/AircraftTransportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/transport/AquaticTransportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/transport/AquaticTransportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/transport/LandTransportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/transport/LandTransportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/transport/NineNineTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/transport/NineNineTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/transport/OnABotTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/transport/OnABotTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/transport/TransportFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/transport/TransportFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/transport/UberTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/transport/UberTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/vehicle/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/vehicle/aircraft/Aircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/vehicle/aircraft/Aircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/vehicle/aircraft/Airplane.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/vehicle/aircraft/Airplane.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/vehicle/aircraft/Helicopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/vehicle/aircraft/Helicopter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/vehicle/aircraft/HelixAircraft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/vehicle/aircraft/HelixAircraft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/vehicle/aquatic/Aquatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/vehicle/aquatic/Aquatic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/vehicle/aquatic/Boat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/vehicle/aquatic/Boat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/vehicle/landvehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/vehicle/landvehicle/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/vehicle/landvehicle/LandVehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/vehicle/landvehicle/LandVehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/abstractfactory/vehicle/landvehicle/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/abstractfactory/vehicle/landvehicle/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/MainBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/MainBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/builder.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/builder.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/builders/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/builders/Builder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/builders/CarBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/builders/CarBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/builders/MotorcycleBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/builders/MotorcycleBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/builders/TruckBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/builders/TruckBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/components/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/components/Color.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/components/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/components/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/components/Traction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/components/Traction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/components/VehicleType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/components/VehicleType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/components/Wheels.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/components/Wheels.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/manager/Manager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/manager/Manager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/vehicles/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/vehicles/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/vehicles/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/vehicles/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/builder/vehicles/Truck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/builder/vehicles/Truck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/factory/MainFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/factory/MainFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/factory/transport/BikeTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/factory/transport/BikeTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/factory/transport/CarTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/factory/transport/CarTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/factory/transport/MotorcycleTransport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/factory/transport/MotorcycleTransport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/factory/transport/Transport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/factory/transport/Transport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/factory/vehicle/Bike.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/factory/vehicle/Bike.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/factory/vehicle/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/factory/vehicle/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/factory/vehicle/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/factory/vehicle/Motorcycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/factory/vehicle/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/criacionais/factory/vehicle/Vehicle.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,13 +98,26 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MainBuilder">
+  <component name="RunManager" selected="Application.MainAdapter">
     <configuration name="MainAbstractFactory" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.belisario.abstractfactory.MainAbstractFactory" />
+      <option name="MAIN_CLASS_NAME" value="org.belisario.criacionais.abstractfactory.MainAbstractFactory" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.belisario.abstractfactory.*" />
+          <option name="PATTERN" value="org.belisario.criacionais.abstractfactory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainAdapter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.belisario.estruturais.adapter.MainAdapter" />
+      <module name="design-patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.belisario.estruturais.adapter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -78,11 +126,11 @@
       </method>
     </configuration>
     <configuration name="MainBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.belisario.builder.MainBuilder" />
+      <option name="MAIN_CLASS_NAME" value="org.belisario.criacionais.builder.MainBuilder" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.belisario.builder.*" />
+          <option name="PATTERN" value="org.belisario.criacionais.builder.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,7 +139,7 @@
       </method>
     </configuration>
     <configuration name="MainFactory" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.belisario.factory.MainFactory" />
+      <option name="MAIN_CLASS_NAME" value="org.belisario.criacionais.factory.MainFactory" />
       <module name="design-patterns" />
       <option name="PROGRAM_PARAMETERS" value="itau" />
       <method v="2">
@@ -100,6 +148,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainAdapter" />
         <item itemvalue="Application.MainBuilder" />
         <item itemvalue="Application.MainAbstractFactory" />
       </list>
@@ -114,7 +163,8 @@
       <option name="presentableId" value="Default" />
       <updated>1702667813782</updated>
       <workItem from="1702667814897" duration="6582000" />
-      <workItem from="1703010183840" duration="8518000" />
+      <workItem from="1703010183840" duration="8666000" />
+      <workItem from="1703095170202" duration="1224000" />
     </task>
     <servers />
   </component>
