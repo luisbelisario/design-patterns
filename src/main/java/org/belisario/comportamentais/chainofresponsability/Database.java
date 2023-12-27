@@ -1,4 +1,4 @@
-package org.belisario.comportamentais.chainofresp;
+package org.belisario.comportamentais.chainofresponsability;
 
 import java.util.HashMap;
 import java.util.Map;

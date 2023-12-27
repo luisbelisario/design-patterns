@@ -1,4 +1,4 @@
-package org.belisario.comportamentais.chainofresp;
+package org.belisario.comportamentais.chainofresponsability;
 
 public class RoleCheckerHandler extends Handler {
 
