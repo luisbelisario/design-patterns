@@ -5,12 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a294d05-af8d-419c-82ea-4d791d1c0a3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/observer/EmailListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/observer/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/observer/EventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/observer/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/observer/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/observer/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/InsuranceMessagingVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Residence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Restaurant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,6 +58,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.belisario.comportamentais.visitor" />
+    </key>
+  </component>
   <component name="RunManager" selected="Application.MainObserver">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.belisario.comportamentais.chainofresponsability.Client" />
@@ -155,7 +162,8 @@
       <workItem from="1703271707104" duration="631000" />
       <workItem from="1703704519896" duration="2202000" />
       <workItem from="1703709510096" duration="2540000" />
-      <workItem from="1703965444880" duration="2654000" />
+      <workItem from="1703965444880" duration="3130000" />
+      <workItem from="1704218635777" duration="2661000" />
     </task>
     <servers />
   </component>
