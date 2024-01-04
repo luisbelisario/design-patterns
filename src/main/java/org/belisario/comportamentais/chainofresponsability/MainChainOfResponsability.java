@@ -1,6 +1,6 @@
 package org.belisario.comportamentais.chainofresponsability;
 
-public class Client {
+public class MainChainOfResponsability {
 
     public static void main(String[] args) {
         Database database = new Database();

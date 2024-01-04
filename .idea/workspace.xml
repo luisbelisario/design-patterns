@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a294d05-af8d-419c-82ea-4d791d1c0a3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/AddressDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/AddressWithBorder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/SimpleAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/UppercaseSimpleAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/chainofresponsability/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/chainofresponsability/MainChainOfResponsability.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,12 +58,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.MainDecorator">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.belisario.comportamentais.chainofresponsability.Client" />
+    <configuration name="CommandMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.belisario.comportamentais.command.CommandMain" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.belisario.comportamentais.chainofresponsability.*" />
+          <option name="PATTERN" value="org.belisario.comportamentais.command.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommandMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.belisario.comportamentais.command.CommandMain" />
+    <configuration name="MainChainOfResponsability" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.belisario.comportamentais.chainofresponsability.MainChainOfResponsability" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.belisario.comportamentais.command.*" />
+          <option name="PATTERN" value="org.belisario.comportamentais.chainofresponsability.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,7 +136,7 @@
         <item itemvalue="Application.MainDecorator" />
         <item itemvalue="Application.MainObserver" />
         <item itemvalue="Application.CommandMain" />
-        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.MainChainOfResponsability" />
         <item itemvalue="Application.MainSingleton" />
       </list>
     </recent_temporary>
@@ -163,7 +158,7 @@
       <workItem from="1703709510096" duration="2540000" />
       <workItem from="1703965444880" duration="3130000" />
       <workItem from="1704218635777" duration="2710000" />
-      <workItem from="1704393761059" duration="4912000" />
+      <workItem from="1704393761059" duration="6378000" />
     </task>
     <servers />
   </component>
