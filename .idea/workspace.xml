@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5a294d05-af8d-419c-82ea-4d791d1c0a3f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Bank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/InsuranceMessagingVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Residence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Restaurant.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/Visitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/comportamentais/visitor/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/AddressDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/AddressWithBorder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/SimpleAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/UppercaseSimpleAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/belisario/estruturais/decorator/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,10 +58,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.belisario.estruturais.decorator" />
       <recent name="org.belisario.comportamentais.visitor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainObserver">
+  <component name="RunManager" selected="Application.MainDecorator">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.belisario.comportamentais.chainofresponsability.Client" />
       <module name="design-patterns" />
@@ -90,12 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainBridge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.belisario.estruturais.bridge.MainBridge" />
+    <configuration name="MainDecorator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.belisario.estruturais.decorator.MainDecorator" />
       <module name="design-patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.belisario.estruturais.bridge.*" />
+          <option name="PATTERN" value="org.belisario.estruturais.decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainDecorator" />
         <item itemvalue="Application.MainObserver" />
         <item itemvalue="Application.CommandMain" />
         <item itemvalue="Application.Client" />
         <item itemvalue="Application.MainSingleton" />
-        <item itemvalue="Application.MainBridge" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +162,8 @@
       <workItem from="1703704519896" duration="2202000" />
       <workItem from="1703709510096" duration="2540000" />
       <workItem from="1703965444880" duration="3130000" />
-      <workItem from="1704218635777" duration="2661000" />
+      <workItem from="1704218635777" duration="2710000" />
+      <workItem from="1704393761059" duration="4912000" />
     </task>
     <servers />
   </component>

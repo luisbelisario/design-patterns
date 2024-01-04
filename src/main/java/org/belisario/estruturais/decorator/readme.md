@@ -1,0 +1,1 @@
+O intuito desse padrão é adicionar funcionalidades a uma classe sem a necessidade de usar herança
